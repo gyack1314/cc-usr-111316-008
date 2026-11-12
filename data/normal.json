@@ -1,0 +1,27 @@
+{
+  "kind": "price-index",
+  "transactions": {
+    "path": "transactions.jsonl",
+    "bytes": 522,
+    "sha256": "f87d780ecd8592ac95fcdea3deaf01c01a31686b814ab11c373bd40f59ac27de",
+    "rows": 6
+  },
+  "product_map": {},
+  "units": [
+    "2026-01",
+    "2026-02",
+    "2026-03"
+  ],
+  "coverage_threshold": "1/2",
+  "edge_weight": "geometric-mean-coverage",
+  "base_unit": "2026-01",
+  "rolling": {
+    "window": 2,
+    "published": {
+      "2026-01": "1",
+      "2026-02": "2"
+    },
+    "new_unit": "2026-03",
+    "mode": "freeze-history"
+  }
+}
